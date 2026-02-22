@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { FileText, PackagePlus, User, Truck, Info, DollarSign, Calendar, Clock, Ship, Plane, LayoutPanelLeft } from 'lucide-react';
+import { useState } from 'react';
+import { FileText, PackagePlus, User, Info, Calendar, Clock, Ship, Plane, LayoutPanelLeft } from 'lucide-react';
 import { jsPDF } from "jspdf";
 
 // ... dentro de tu componente CrearGuia ...
