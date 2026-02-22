@@ -1,4 +1,4 @@
-import { Search, Plus, Phone, Globe, MoreHorizontal, Truck, ShieldCheck, MapPin } from 'lucide-react';
+import { Search, Plus, Phone, Globe, MoreHorizontal, Truck, ShieldCheck } from 'lucide-react';
 
 const PROVEEDORES_DEMO = [
     { id: 1, empresa: 'DHL Global Forwarding', contacto: 'Soporte Empresas', tel: '+1 800 225 5345', tipo: 'Aéreo/Marítimo', rating: 'Premium' },

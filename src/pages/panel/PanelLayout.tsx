@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, PackagePlus, Truck, Users, HardHat, LogOut } from 'lucide-react';
+import { PackagePlus, Truck, Users, HardHat, LogOut } from 'lucide-react';
 
 export default function PanelLayout() {
     const location = useLocation();
@@ -28,8 +28,8 @@ export default function PanelLayout() {
                                 key={item.path}
                                 to={item.path}
                                 className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${isActive
-                                        ? 'bg-[#F38118] text-white shadow-lg'
-                                        : 'hover:bg-white/10 text-purple-100'
+                                    ? 'bg-[#F38118] text-white shadow-lg'
+                                    : 'hover:bg-white/10 text-purple-100'
                                     }`}
                             >
                                 {item.icon}
